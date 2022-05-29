@@ -25,4 +25,5 @@ jobs:
         pr_title: "Repo sync (prod <--> dev)"
         pr_body: "*This is an automated PR to synchronise production and development repos*"
         pr_label: "repo-sync"
+        pr_allow_empty: true
 
