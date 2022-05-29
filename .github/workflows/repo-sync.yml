@@ -22,7 +22,7 @@ jobs:
         source_branch: ${{ secrets.INTERMEDIATE_BRANCH }}
         destination_branch: main
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        pr_title: "Repo sync with ${{ github.ref }}"
-        pr_body: ":crown: *An automated PR*"
+        pr_title: "Repo sync (prod <--> dev)"
+        pr_body: "*This is an automated PR to synchronise production and development repos*"
         pr_label: "repo-sync"
 
